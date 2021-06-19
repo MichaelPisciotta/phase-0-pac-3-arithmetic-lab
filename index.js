@@ -40,14 +40,17 @@ function add(a,b) {
     console.log(decrement(n));
 
     
+
+
     function makeInt(n) {
-        parseInt('2', 10); 
+        return parseInt(n, 10); 
     }
-   makeInt(n);
+   console.log(makeInt(2));
+
 
 
     function preserveDecimal(n) {
-        parseFloat('80.123999'); 
+       return parseFloat(n); 
     }
-preserveDecimal(n);
+console.log(preserveDecimal("80.123999"));
 
